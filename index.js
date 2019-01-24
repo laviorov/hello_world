@@ -1,10 +1,14 @@
 
 const axios = require("axios");
-
+const _ = require("lodash");
 
 
 class HelloWorld{
    constructor(url){
+     if (!_.isString(url)){
+       throw Error("url must be as String")
+     }
+
      this.url = url;
    }
 
