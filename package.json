@@ -4,5 +4,8 @@
   "description": "test version",
   "main": "index.js",
   "author": "sdhsddh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
 }
